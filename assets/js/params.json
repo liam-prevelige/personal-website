@@ -31,7 +31,7 @@
   },
   "image": {
     "src": {
-      "path": "/web/assets/img/erased-png-headshot.png",
+      "path": "/assets/img/erased-png-headshot.png",
       "is_external": false
     },
     "size": {
