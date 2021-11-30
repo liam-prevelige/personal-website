@@ -150,12 +150,12 @@ a.white {
 
 .btn-solid-reg {
 	display: inline-block;
-	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	padding: .8rem 2.125rem .8rem 2.125rem;
 	border: 0.125rem solid #5f4dee;
 	border-radius: 2rem;
 	background-color: #5f4dee;
 	color: #fff;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 0.875rem "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
