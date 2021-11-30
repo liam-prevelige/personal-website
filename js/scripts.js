@@ -1,9 +1,20 @@
-/* Template: Tivo - SaaS App HTML Landing Page Template
-   Author: Inovatik
-   Created: Sep 2019
-   Description: Custom JS file
+/* 
+ * Miscellaneous Scripts
 */
 
+/* Copy phone number to clipboard - contact section of index.html */
+function copyPhoneNumber() {
+    var copyPhone = document.getElementById("phoneNumber");
+    navigator.clipboard.writeText(copyPhone.innerHTML);
+    alert("Phone number copied to clipboard!");
+}
+
+/* Copy email to clipboard - contact section of index.html */
+function copyEmailAddress() {
+    var copyEmail = document.getElementById("emailAddress");
+    navigator.clipboard.writeText(copyEmail.innerHTML);
+    alert("Email address copied to clipboard!");
+}
 
 (function($) {
     "use strict"; 
