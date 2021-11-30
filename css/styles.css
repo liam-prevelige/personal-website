@@ -13,11 +13,11 @@ Table Of Contents:
 04. Header
 05. Customers
 06. Description
-07. Features
-08. Features Lightboxes
-09. Details
+07. about
+08. about Lightboxes
+09. contact
 10. Video
-11. Pricing
+11. experiences
 12. Testimonials
 13. Newsletter
 14. Footer
@@ -493,7 +493,7 @@ input[type='checkbox'] {
 }
 /* end of form success and error message animation - Animate.css */
 
-/* Fade-move Animation For Details Lightbox - Magnific Popup */
+/* Fade-move Animation For contact Lightbox - Magnific Popup */
 /* at start */
 .my-mfp-slide-bottom .zoom-anim-dialog {
 	opacity: 0;
@@ -533,7 +533,7 @@ input[type='checkbox'] {
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
-/* end of fade-move animation for details lightbox - magnific popup */
+/* end of fade-move animation for contact lightbox - magnific popup */
 
 /* Fade Animation For Image Lightbox - Magnific Popup */
 @-webkit-keyframes fadeIn {
@@ -838,9 +838,9 @@ input[type='checkbox'] {
 }
 
 
-/*************************/
-/*     05. Customers     */
-/*************************/
+/***************************************/
+/*     05. Companies/Organizations     */
+/***************************************/
 .slider-1 {
 	padding-top: 5rem;
 	padding-bottom: 3.25rem;
@@ -892,7 +892,7 @@ input[type='checkbox'] {
 
 
 /************************/
-/*     07. Features     */
+/*     07. About     */
 /************************/
 .tabs {
 	padding-top: 8rem;
@@ -972,7 +972,7 @@ input[type='checkbox'] {
 
 
 /***********************************/
-/*     08. Features Lightboxes     */
+/*     08. About Lightboxes     */
 /***********************************/
 .lightbox-basic {
 	margin: 2.5rem auto;
@@ -1068,7 +1068,7 @@ input[type='checkbox'] {
 
 
 /***********************/
-/*     09. Details     */
+/*     09. contact     */
 /***********************/
 .basic-1 {
 	padding-top: 7.5rem;
@@ -1196,9 +1196,9 @@ input[type='checkbox'] {
 }
 
 
-/***********************/
-/*     11. Pricing     */
-/***********************/
+/***************************/
+/*     11. Experiences     */
+/***************************/
 .cards-2 {
 	padding-top: 7.875rem;
 	padding-bottom: 2.25rem;
@@ -1303,7 +1303,7 @@ input[type='checkbox'] {
 }
 
 .slider-2 .image-wrapper {
-	width: 6rem;
+	height: 6rem;
 	margin-right: auto;
 	margin-bottom: 1rem;
 	margin-left: auto;
@@ -1798,7 +1798,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		text-align: left;
+		text-align: center;
 	}
 
 	.header .text-container {
@@ -1839,7 +1839,7 @@ a:hover.back-to-top {
 	/* end of description */
 
 
-	/* Features */
+	/* about */
 	.tabs .nav-tabs {
 		display: flex;
 		justify-content: center;
@@ -1860,10 +1860,10 @@ a:hover.back-to-top {
 	.tabs .image-container {
 		margin-bottom: 0;
 	}
-	/* end of features */
+	/* end of about */
 
 
-	/* Features Lightboxes */
+	/* about Lightboxes */
 	.lightbox-basic {
 		max-width: 62.5rem;
 		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
@@ -1879,10 +1879,10 @@ a:hover.back-to-top {
 	.lightbox-basic h3 {
 		margin-top: 0.5rem;
 	}
-	/* end of features lightboxes */
+	/* end of about lightboxes */
 
 
-	/* Details */
+	/* contact */
 	.basic-1 {
 		padding-top: 8rem;
 	}
@@ -1890,7 +1890,7 @@ a:hover.back-to-top {
 	.basic-1 .text-container {
 		margin-bottom: 0;
 	}
-	/* end of details */
+	/* end of contact */
 
 
 	/* Video */
@@ -1908,14 +1908,14 @@ a:hover.back-to-top {
 	/* end of video */
 
 
-	/* Pricing */
+	/* experiences */
 	.cards-2 .card {
 		display: inline-block;
 		margin-right: 0.5rem;
 		margin-left: 0.5rem;
 		vertical-align: top;
 	}
-	/* end of pricing */
+	/* end of experiences */
 
 
 	/* Testimonials */
@@ -2018,12 +2018,12 @@ a:hover.back-to-top {
 	/* end of header */
 	
 
-	/* Customer */
+	/* Company/Organization */
 	.slider-1 .slider-container {
 		margin-right: 3rem;
 		margin-left: 3rem;
 	}
-	/* end of customer */
+	/* end of Company/Organization */
 
 
 	/* Description */
@@ -2039,7 +2039,7 @@ a:hover.back-to-top {
 	/* end of description */
 
 
-	/* Features */
+	/* about */
 	.tabs .image-container {
 		margin-right: 1.5rem;
 		margin-left: 1rem;
@@ -2050,10 +2050,10 @@ a:hover.back-to-top {
 		margin-right: 1rem;
 		margin-left: 1.5rem;
 	}
-	/* end of features */
+	/* end of about */
 
 
-	/* Details */
+	/* contact */
 	.basic-1 .image-container {
 		margin-right: 1rem;
 		margin-left: 1.5rem;
@@ -2068,10 +2068,10 @@ a:hover.back-to-top {
 	.basic-1 h2 {
 		margin-bottom: 1rem;
 	}
-	/* end of details */
+	/* end of contact */
 
 
-	/* Pricing */
+	/* experiences */
 	.cards-2 .card {
 		width: 32.75rem;
 		max-width: 100%;
@@ -2082,7 +2082,7 @@ a:hover.back-to-top {
 		padding-right: 2.25rem;
 		padding-left: 2.25rem;
 	}
-	/* end of pricing */
+	/* end of experiences */
 
 
 	/* Testimonials */

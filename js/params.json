@@ -7,7 +7,7 @@
       "random": false
     },
     "movement": {
-      "speed": 1,
+      "speed": 2,
       "restless": {
         "enabled": false,
         "value": 10,
@@ -37,7 +37,7 @@
     "size": {
       "canvas_pct": 100,
       "min_px": 150,
-      "max_px": 800
+      "max_px": 1000
     }
   },
   "interactions": {
