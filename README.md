@@ -4,12 +4,12 @@
 This repository contains the code behind my personal website, which explores my background, projects, and ways to get in touch.
 Check it out at [www.liamprevelige.com](https://www.liamprevelige.com)!  
 
-Folder contents are as follows:
-`css`: Website styles
-`files`: PDFs for resume and project-specific documents linked in the website
-`images`: all images used - column-specific formatting for composite photos is achieved by filling fixed photoshop canvas ratio
-`js`: JavaScript files, including particles.js described in detail below
-`webfonts`: Fonts and icons, labeled according to brands and fill
+Folder contents are as follows:  
+`css`: Website styles  
+`files`: PDFs for resume and project-specific documents linked in the website  
+`images`: all images used - column-specific formatting for composite photos is achieved by filling fixed photoshop canvas ratio  
+`js`: JavaScript files, including particles.js described in detail below  
+`webfonts`: Fonts and icons, labeled according to brands and fill  
 
 ## Particles.js
 If you like the particles logo, I've added some more information below. I converted a headshot to particles by removing color 
