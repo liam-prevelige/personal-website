@@ -1,12 +1,12 @@
 # Liam Prevelige
-Last Updated Dec 2021
+*Last Updated Dec 2021*
 
 This repository contains the code behind my personal website, which explores my background, projects, and ways to get in touch.
 Check it out at [www.liamprevelige.com](https://www.liamprevelige.com)!  
 
 ## Particles.js
 If you like the particles logo, I've added some more information below. I converted a headshot to particles by removing color 
-ranges in photoshop. Just delete any sections of your target photo - any regions with color will be converted to particles. Particle 
+ranges in photoshop; just delete any sections of your target photo that you don't want converted to particles. Particle 
 behavior is defined in *params.json*, *particle-image.js*, and the compressed *particle-image.min.js*
 
 **index.html**
