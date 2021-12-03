@@ -7,7 +7,7 @@ Check it out at [www.liamprevelige.com](https://www.liamprevelige.com)!
 Folder contents are as follows:  
 `css`: Website styles  
 `files`: PDFs for resume and project-specific documents linked in the website  
-`images`: all images used - column-specific formatting for composite photos is achieved by filling fixed photoshop canvas ratio  
+`images`: all images - column-specific formatting is set by an image canvas' height-width ratio  
 `js`: JavaScript files, including particles.js described in detail below  
 `webfonts`: Fonts and icons, labeled according to brands and fill  
 
