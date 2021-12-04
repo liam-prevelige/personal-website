@@ -31,7 +31,6 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- Icon  -->
@@ -54,10 +53,6 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <div class="container">
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
-
             <!-- Image Logo -->
             <a class="navbar-brand logo-image" href="index.html"><img src="images/lp-logo.svg" alt="alternative"></a>
 
@@ -78,9 +73,6 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="index.html#about">ABOUT ME</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#details">PROJECTS</a>
-                    </li> -->
 
                     <!-- Dropdown Menu -->
                     <li class="nav-item dropdown">
@@ -95,7 +87,6 @@
                         </div>
                     </li>
                     <!-- end of dropdown menu -->
-
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="index.html#contact">CONTACT & RESOURCES</a>
                     </li>
@@ -138,7 +129,7 @@
     </div> <!-- end of ex-basic-1 -->
     <!-- end of breadcrumbs -->
 
-    <!-- Privacy Content -->
+    <!-- Software Project Content -->
     <div class="ex-basic-2">
         <div class="container">
             <div class="row">
@@ -146,7 +137,6 @@
                     <div class="image-container-large">
                         <img class="img-fluid" src="images/all-software-composite.png" alt="alternative">
                     </div> <!-- end of image-container-large -->
-                    
                     <!-- PreSell -->
                     <div class="text-container">
                         <div class="row">
@@ -171,7 +161,7 @@
                                     10 fragments, 6 models, 6 other utilities, 40 layouts, and 6 menus. I host the database on Google Firebase and use 
                                     Google's authentication, realtime database, storage, machine learning, and cloud functions. The payments system is 
                                     handled via Stripe Connect; a Stripe account is created for a user when they sign up and placing orders is handled by 
-                                    a remote server and cloud functions. To maintain security, all financial information and payments processing is conducting
+                                    a remote server and cloud functions. To maintain security, all financial information and payments processing is conducted 
                                     through Stripe. Images are cached and loaded with Glide.
                                 </p>
                                 <p>
@@ -210,7 +200,7 @@
                                     environment of Lake Sunapee and mappings of biomarkers, the Catabot must move 
                                     and ultimately trace concentrated areas for future algae blooms. Although I'm 
                                     still working on this project, I have been exposed to new tools for simulation, 
-                                    navigation, and data processing (i.e. Gazebo, QGroundControl, Python processing tools). 
+                                    navigation, and data processing (i.e. Gazebo, QGroundControl, Python processing tools, and more). 
                                     This research has also served as a foundation for other work, like the multirobot 
                                     patrol system described below. 
                                 </p>
@@ -218,7 +208,7 @@
                                     This research has also exposed me to incredible professors and graduate students; the 
                                     project is conducted with a team from six institutions: Dartmouth, University of New Hampshire,
                                     Bates, University of Rhode Island, and University of South Carolina. Reading groups on modern 
-                                    multirobot robotics research expands these interactions beyond the immediate project.
+                                    multirobot robotics research helps to expand these interactions beyond the immediate project.
                                 </p>
                             </div> <!-- end of col -->
                         </div> <!-- end of row -->
@@ -228,7 +218,7 @@
                     <div class="text-container">
                         <div class="row">
                             <div class="col-md-6">
-                                <h3>Intelligent Autonomous Multirobot Patrol System</h3>
+                                <h3>Intelligent Autonomous<br>Multirobot Patrol System</h3>
                                 <p>
                                     As one of two undergraduates in an upper level robotics course, I had the opportunity to 
                                     pursue a loosely structured, research-oriented multirobot project. My teammate and I  
@@ -238,14 +228,14 @@
                                     My teammate and I developed a learning algorithm that adjusted the speed of patrolling robots 
                                     as they detected escapees. The patrolling region is subdivided into a grid, with each cell containing 
                                     a desired patroller velocity. Confined robots choose a random time and target exit (weighted by distance). 
-                                    If a patroller catches a robot escaping, the simulation pauses and they return to their starting location 
-                                    while updating velocities in the region of the grid according to the algorithm.
+                                    If a patroller catches a robot escaping, the simulation pauses and the escapee returns to its starting location, 
+                                    while corresponding regions of the grid are updated according to our algorithm.
                                 </p>
                                 <p>
-                                    This project uses Docker to execute the Stage simulations in a Linux environment. Nodes for the patrollers, 
-                                    confined robots, and a 'security' system to handle simulation metadata are written in Python. The algorithm 
-                                    we developed improved detection up to 400% (depending on training time with the learning system). We also 
-                                    wrote a formal research paper describing related work, the algorithm, simulation environment, and results which can be 
+                                    I used Docker to execute the Stage simulations in a Linux environment. Separate nodes, written in Python, exist for the patrollers, 
+                                    confined robots, and a 'security' system, which handles simulation metadata. The algorithm 
+                                    we developed improved detection up to 400%. We also 
+                                    wrote a formal research paper describing related work, the algorithm, simulation environment, and results, which can be 
                                     viewed <a href=files/intelligent-multirobot-patrol-system.pdf>here</a>.
                                 </p>
                                 <div class="form">
@@ -257,6 +247,12 @@
                                                         <a href="https://github.com/liam-prevelige/amp">
                                                             <i class="fas fa-circle fa-stack-2x"></i>
                                                             <i class="fab fa-github fa-stack-1x"></i>
+                                                        </a>
+                                                    </span>
+                                                    <span class="fa-stack">
+                                                        <a href="files/intelligent-multirobot-patrol-system.pdf">
+                                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                                            <i class="fas fa-file-alt fa-stack-1x"></i>
                                                         </a>
                                                     </span>
                                                 </div>
@@ -286,22 +282,22 @@
                                 <p>
                                     Two friends and I started a freelance software development company to improve efficiency 
                                     at large companies using automated data processing. Below I discuss two successful projects 
-                                    which I led in development.
+                                    that I led in development.
                                 </p>
                                 <p>
-                                    A government worker came to us regarding potential automation for processing military contracts that 
-                                    his team were responsible for over the coming months. I designed and developed the majority of a project 
+                                    A government worker came to us regarding potential automation for processing military contracts, which 
+                                    his team was responsible for handling over the coming months. I designed and developed the majority of a project 
                                     in Python, with tools including Pandas for excel work and HTTP requests in sessions for scraping. As a 
                                     result, months of labor was reduced to minutes - that is, the time to configure the program and collect 
-                                    output.
+                                    the output.
                                 </p>
                                 <p>
                                     Another company, Connect Healthcare Collaboration, was having difficulty sourcing contact information for a 
                                     large pipeline of potential customers. The solution I initially designed was overly complex; the Python-based 
                                     project set up emails, linked a number of aliases to each, then used Selenium to set up accounts on RocketReach.io, 
                                     using their free accounts and the RocketReach API to access individual client contact information. Ultimately, I redesigned 
-                                    the solution to scrape company-specific contact formatting and output contact information with Pandas, removing 
-                                    the need for complex systems using email aliases and Selenium.
+                                    the solution to scrape and fill in company-specific contact information while outputting the result with Pandas, removing 
+                                    the need for a complex system using email aliases and Selenium.
                                 </p>
                             </div> <!-- end of col -->
                         </div> <!-- end of row -->
@@ -316,7 +312,7 @@
                                     My role as an investment intern for <a href="https://www.plugandplaytechcenter.com/">Plug and Play</a>, 
                                     the world's largest startup accelerator, has relied heavily on my technical knowledge of computer science 
                                     and the intersection of my interests in software development and entrepreneurship. I collaborate with a 
-                                    network students from 70 universities, each of which has two representatives selected by 
+                                    network students from 70 universities, each of which has two representatives who were selected by 
                                     the Plug and Play investment committee.
                                 </p>
                                 <p>
@@ -325,7 +321,7 @@
                                     recent analysis was on a company providing a digital marketplace to trade datasets and a platform to train, host,  
                                     and deploy niche machine learning algorithms. I presented my analysis to Plug and Play Tech Center's investment 
                                     committee, the PDF of which can be viewed <a href="files/pnp-alpine-intuition-dd.pdf">here</a> (although note 
-                                    that most feedback is presented orally, not written).
+                                    that most of the analysis is presented orally, not written).
                                 </p>
                             </div> <!-- end of col -->
                             <div class="col-md-6">
@@ -349,19 +345,19 @@
                                 <p>
                                     Taking the lead in a team of three, I helped develop the "Nuggets" game server; players explore 
                                     a set of rooms and passageways in search of gold nuggets with lifelike visibility limitations. 
-                                    The rooms and passages are defined by a map loaded by the server at the start of the game, gold 
-                                    nuggets are randomly distributed in piles within the rooms, and up to 26 players, with one spectator, 
+                                    The rooms and passages are defined by a map loaded by the server at the start of the game and gold 
+                                    nuggets are randomly distributed in piles within the rooms. Up to 26 players, with one spectator, 
                                     may play a given game. After being randomly dropped in a room at the start of the game, players move about, 
                                     collecting nuggets when they move onto a pile. When all gold nuggets are collected, the game ends and a 
                                     summary is printed.
                                 </p>
                                 <p>
                                     The code for this game's server is written in C and we used the Scrum project management methodology to organize 
-                                    the development process. By the time of completion, we had over 30 sprints and more than 300 commits to our shared 
+                                    the development process. By the time of completion, we had over 30 sprints and more than 300 commits to our  
                                     git repository. In addition to taking a leadership role with the Scrum project management, I developed the infrastructure 
                                     for the game's display and storage of the map, calculating a player's visibility, managing movement, collecting gold, 
-                                    extensive unit and system testing, and documentation for design, implementation, and testing. This is a large, well-documented 
-                                    project; please reach out if you would like to see its repository!
+                                    conducting extensive unit and system testing, and creating documentation for design, implementation, and testing. 
+                                    This is a large, well-documented project; please reach out if you would like to see the repository!
                                 </p>
                             </div> <!-- end of col -->
                         </div> <!-- end of row -->
@@ -375,7 +371,7 @@
                                 <p>
                                     Using Logisim, I built out a Y86 simulator and microarchitecture starting from basic logic gates. This includes 
                                     determining microcode for the finite state machine and wiring an arithmetic logic unit, RAM, register reader, 
-                                    register writer, finite state machine, microsequencer, input/output, program counter and properly piecing each of 
+                                    register writer, finite state machine, microsequencer, input/output, and program counter while properly piecing each of 
                                     these components together. To the right I have added a photo of the abstracted microarchitecture; this Y86 simulator 
                                     uses Harvard architecture, although the transition to Von Neumann is fairly straightforward.
                                 </p>
@@ -411,8 +407,8 @@
                                 <p>
                                     This was a large project, mainly written in Java, that used Google firebase with the realtime 
                                     database, storage, authentication, and machine learning. There are 7 activities, 3 adapters, 
-                                    4 fragments, and 3 models along with 18 layouts and 5 menus. This project is public on Github so 
-                                    be sure to check it out!
+                                    4 fragments, and 3 models along with 18 layouts and 5 menus. This project is public on Github 
+                                    and has its own website - be sure to check them out!
                                 </p>
                                 <div class="form">
                                     <div class="container">
@@ -423,6 +419,12 @@
                                                         <a href="https://github.com/liam-prevelige/pikr">
                                                             <i class="fas fa-circle fa-stack-2x"></i>
                                                             <i class="fab fa-github fa-stack-1x"></i>
+                                                        </a>
+                                                    </span>
+                                                    <span class="fa-stack">
+                                                        <a href="https://journeys.dartmouth.edu/pikr/">
+                                                            <i class="fas fa-circle fa-stack-2x"></i>
+                                                            <i class="fas fa-link fa-stack-1x"></i>
                                                         </a>
                                                     </span>
                                                 </div>
@@ -442,7 +444,7 @@
                                 <p>
                                     I developed a fitness Android application that tracks and stores a user's exercise 
                                     information, including the path taken in the trip, the speed of the user, and other 
-                                    relevant information, storing the exercise data in an easily accessible panel. 
+                                    relevant information while storing the exercise data in an easily accessible panel. 
                                     When set to 'automatic,' the application uses Google's machine learning 
                                     API to automatically identify the type of exercise being undergone. Users can adjust 
                                     different settings in the app, like units for their exercise. This app includes 6 activities, 
@@ -494,18 +496,18 @@
                                     spectrometry results divided by patients known to have ovarian cancer and known to not have it. 
                                     The program takes the mean of spectra information from the training data for each group, averaging 
                                     them out and storing the between-class mean. A scatter matrix is then computed within the class and 
-                                    between class, allowing for the computation of the maximum generalized eigenvectors and the creation 
+                                    between classes, allowing for the computation of the maximum generalized eigenvectors and the creation 
                                     of a classification model to be applied to the test dataset. Based on the dataset I was given, the 
                                     classifier was about 93% accurate in both the training and testing data, suggesting the classifier 
                                     and corresponding eigenvector can be applied pretty generally; the ROC curves in training and testing 
-                                    were similar, so there was clearly consistency in spectra results among patients with and without 
+                                    were similar, so there is clearly consistency in spectra results among patients with and without 
                                     ovarian cancer.
                                 </p>
                                 <p>
                                     This project served as my introduction to classification models and applied computer science. To the left 
                                     I have posted the ROC curves for training and testing respectively, as well as histograms for testing and 
                                     training with averaged spectra results for those classified with and without ovarian cancer. Note that, at 
-                                    some thresholds, the histograms overlap indicating the classifier would fail.
+                                    some thresholds, the histograms overlap, indicating the classifier would fail in these cases.
                                 </p>
                             </div> <!-- end of col -->
                         </div> <!-- end of row -->
@@ -519,14 +521,14 @@
                                 <p>
                                     Since seeing viral videos of 'trick shots' - some of which seem too good to be true - 
                                     I've always been interested in how to validate or invalidate their authenticity. For this 
-                                    project, I used MATLAB to write a program that can analyze videos of, say, a ball's trajectory 
+                                    project, I used MATLAB to write a program that can analyze videos of, say, a ball's trajectory, 
                                     and determine the expected ballistic motion.
                                 </p>
                                 <p>
                                     A user selects the center of the traveling ball in selected video frames. Then, four types of 
                                     least-squares estimations are run and the best fitting regression is selected. The predicted points 
                                     are then overlayed on the frame. I've given examples of the output in the picture to the right, with the 
-                                    graph displaying the compiled estimations. The program also produces the error for each regression.
+                                    graph displaying the compiled estimations. The program also outputs the error for each regression.
                                 </p>
                             </div> <!-- end of col -->
                             <div class="col-md-6">
@@ -553,7 +555,7 @@
                                     clients, giving a glimpse into intercomputer communication systems. 
                                 </p>
                                 <p>
-                                    Users type in the IP address of the individual hosting the canvas and can draw with various 
+                                    Users input the IP address of the individual hosting the canvas and can draw with various 
                                     shapes and colors. The master ensures asynchronous writing is possible, with clients only 
                                     updating their canvas upon receiving a returned message from the master.
                                 </p>
@@ -574,7 +576,7 @@
                                 </p>
                                 <p>
                                     The left image shows a comparison between a fixed vs diminishing learning rate with gradient 
-                                    descent minimizing a simple quadratic cost function; the graph demonstrates potential risk 
+                                    descent to minimize a simple quadratic cost function; the graph demonstrates potential risk 
                                     of a diminishing learning rate getting stuck in oscillation. The right image shows a comparison 
                                     between the fit of gradient descent on a least squares function (blue) vs least absolute 
                                     deviations (red), demonstrating the extreme effect of outliers for least squares relative to 
@@ -607,18 +609,17 @@
                                 <p>
                                     In MATLAB, I wrote a program that removes distortion in an image of a flat planar 
                                     surface. In short, I estimate a homography that describes the projection of a 
-                                    planar surface from the 3D world to the 2D image camera sensor and then apply the 
-                                    inverse homography to an image. I find the visual of the license plate to be very 
-                                    interesting - the second image is the output of my program, removing distortion and 
-                                    allowing you to clearly make out the letters.
+                                    planar surface from the 3D world to the 2D image camera sensor, then apply the 
+                                    inverse homography to an image. I love the visual of the license plate - 
+                                    the second image is the output of my program, removing distortion and 
+                                    allowing you to clearly make out the letters from an otherwise unreadable image.
                                 </p>
                                 <p>
                                     In another project, I used Python to write the 'Six Degrees of Kevin Bacon' game. If 
                                     you're not familiar with this game, you choose a random actor/actress and see how many 
                                     degrees of separation they lie from Kevin Bacon; i.e. Actor A was in Movie X with Actor B, 
                                     and Actor B was in Movie Y with Kevin Bacon, so Actor A is two degrees of separation from 
-                                    Kevin Bacon. With my program, you can also reset the universe around a different actor. This 
-                                    wasn't an especially intense project, but it was fun nonetheless!
+                                    Kevin Bacon. With my program, you can also reset the universe around a different actor.
                                 </p>
                                 <p>
                                     Although the list could go on, the final project I'll talk about was a challenge problem from 
@@ -690,7 +691,6 @@
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
